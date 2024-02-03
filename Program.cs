@@ -25,3 +25,5 @@ Console.Write("Введите стартовое значение: ");
 int m = int.Parse(Console.ReadLine()!)!;
 Console.Write("Введите финальное значение: ");
 int n = int.Parse(Console.ReadLine()!)!;
+
+FindDigits(m, n);
